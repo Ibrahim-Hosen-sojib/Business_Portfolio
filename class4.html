@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>class-4 || sep-3,2020</title>
+</head>
+<body>
+    <!--    vedio,audio,iframe,entity tag  -->
+<video width="200" hight="200" controls autoplay loop played muted volume>
+    <source src="video.mp4" type="video/mp4">
+</video>
+        <br/>
+<audio width="150" hight="150" controls  loop>
+   
+    <source src="something.mp3" type="audio/mpeg">
+    
+</audio>
+<br/>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yWTPiFuXBB8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+&gt; &lt; &copy;
+<!--  ------------------------------->
+
+
+
+<!--from tag -->
+
+<form action="" method="GET" enctype="multipart/form-data">
+  <label for="username">Enter Your Name:</label>
+   <input type="text" placeholder="your name" name="username" id="username"  autocomplete="off" value="" required>
+   <br>
+    <label for="email">Enter Your Email:</label>
+   <input type="text" placeholder="your email" name="email" id="email"  autocomplete="off" value="" required>
+   <br>
+    <label for="pass">Enter Password:</label>
+   <input type="password" placeholder="your pass" name="pass" id="pass"  autocomplete="off" value="" required>
+   <input type="text" placeholder="lastname" value="email@gmail.com" disabled>
+   <br>
+   <label for="gender">Your Gender</label>
+   Male<input type="radio" name="gender" id="gender" value="M"><br>
+   Female<input type="radio" name="gender" id="gender" value="F"><br>
+   Others<input type="radio" name="gender" id="gender" value="O"><br>
+   <br>
+   <label for="skills">Your skills:</label><br>
+   HTML<input type="checkbox" name="skill" id="skill" value="1" checked>
+   CSS<input type="checkbox" name="skill" id="skill" value="2" checked>
+   PHP<input type="checkbox" name="skill" id="skill" value="3">
+   BOOTStrap<input type="checkbox" name="skill" id="skill" value="4">
+   <br>
+   <label for="dob">Your birthday:</label>
+   <input type="date" name="dob" id="dob">
+   <br>
+   <label for="pic">add profile<br>
+       <img src=".png" alt="-image">
+   </label>
+   <input type="file" name="pic" id="pic" hidden="hidden"><br>
+   <label for="bio">Biodata:</label><br>
+   <textarea name="bio" id="bio" cols="30" rows="5" placeholder=" biodata" maxlength="15" minlength="5"></textarea><br><br>
+   <label for="color">secure color code</label><br>
+   <input type="color" name="color" id="color"><br>
+   <label for="district">select your district</label><br>
+   <select name="district" id="district" multiple>
+       <option value="">select your district:</option>
+       <option value="1">Dhaka</option>
+       <optgroup label="Dhaka">
+           <option value="10">new Dhaka</option>
+           <option value="11">old Dhaka</option>
+       </optgroup>
+       
+       <option value="2" selected>Rajshahi</option>
+       <option value="3">kustia</option>
+       <option value="4">chittagong</option>
+   </select><br><br>
+   <label for="phn">Your Phone Number:</label>
+   +880<input type="number" name="phn" id="phn" placeholder="Your number"><br>
+   <input type="reset" name="reset" id="reset" value="Reset all">
+   <input type="submit" name="sign up" id="sign up"><br><br>
+   <button type="button">Button</button><br>
+   <button type="reset">Rseet</button><br>
+   <button type="submit">Submit</button><br>
+    
+</form>
+<!--just opening tag
+img,input,
+-->
+
+
+</body>
+</html>

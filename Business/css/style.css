@@ -1,0 +1,54 @@
+h1{
+    color:red;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+header{
+    background: red;
+    width: 100%;
+    height: 80px;
+    
+}
+nav{
+    background: green;
+    width: 100%;
+    height: 60px;
+}
+.first{
+    width: 100%;
+    height: 300px;
+}
+
+.first .first-div{
+    float: left;
+    width: 67%;
+    height: 300px;
+}
+.first .first-div #section1{
+    background: yellow;
+    height: 100px;
+
+}
+.first .first-div #section2{
+    background: white;
+    height: 100px;
+}
+.first .first-div #section3{
+    background:black;
+    height: 100px;
+}
+.first .second-div aside{
+    background: darkblue;
+    float: left;
+    width:33%;
+    height: 300px;
+}
+footer h2{
+   
+    width: 100%;
+    height: 40px;
+    background: crimson;
+}

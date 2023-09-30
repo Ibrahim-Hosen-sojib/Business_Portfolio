@@ -1,0 +1,140 @@
+.one {
+    background: #00ffb88c;
+    height: 640px;
+    width: 70%;
+    margin-left: 266px;
+    margin-top: 46px;
+    position: relative;
+}
+
+.two {
+    background: #ffa000db;
+    height: 587px;
+    width: 63%;
+    margin-left: 266px;
+    margin-top: 30px;
+    position: absolute;
+    left: -39px;
+}
+.three {
+    position: absolute;
+    height: 5px;
+    width: 625px;
+    background:green;
+    top: 42px;
+}
+
+.four {
+    position: absolute;
+    height: 5px;
+    width: 625px;
+    background:green;
+    top: 82px;
+}
+
+.five1 {
+    background-color: green;
+    height: 153px;
+    width: 200px;
+    position: absolute;
+    top: 115px;
+    left: 9px;
+    border: 5px solid blue;
+}
+
+
+.five1 {
+    background-color: green;
+    height: 153px;
+    width: 200px;
+    position: absolute;
+    top: 93px;
+    left: 9px;
+    border: 5px solid blue;
+}
+.five2 {
+    background-color: green;
+    height: 153px;
+    width: 200px;
+    position: absolute;
+    top: 93px;
+    left: 218px;
+    border: 5px solid blue;
+}
+ .five3 {
+    background-color: green;
+    height: 153px;
+    width: 200px;
+    position: absolute;
+    top: 93px;
+    left: 410px;
+    border: 5px solid blue;
+} 
+
+
+
+.six1 {
+    background-color:red;
+    height: 153px;
+    width: 200px;
+    position: absolute;
+    top: 115px;
+    left: 9px;
+    border: 5px solid blue;
+}
+.six2 {
+    background-color: red;
+    height: 153px;
+    width: 200px;
+    position: absolute;
+    top: 115px;
+    left: 218px;
+    border: 5px solid blue;
+}
+ .six3 {
+    background-color: red;
+    height: 153px;
+    width: 200px;
+    position: absolute;
+    top: 115px;
+    left: 410px;
+    border: 5px solid blue;
+} 
+.six {
+    position: absolute;
+   
+    margin-top: 145px;
+}
+
+.seven {
+    height: 90px;
+    width: 611px;
+    position: absolute;
+    background: blue;
+    top: 427px;
+    left: 9px;
+}
+
+.eight {
+    position: absolute;
+    height: 5px;
+    width: 625px;
+    background:green;
+    top: 42px;
+}
+
+.nine {
+    position: absolute;
+    height: 5px;
+    width: 625px;
+    background:green;
+    top: 95px;
+}
+
+.last{
+position: absolute;
+top:487px;
+}
+
+
+
